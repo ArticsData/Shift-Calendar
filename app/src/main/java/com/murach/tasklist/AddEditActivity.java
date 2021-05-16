@@ -33,9 +33,9 @@ implements OnKeyListener {
         setContentView(R.layout.activity_add_edit);
         
         // get references to widgets
-        listSpinner = (Spinner) findViewById(R.id.listSpinner);
-        nameEditText = (EditText) findViewById(R.id.nameEditText);
-        notesEditText = (EditText) findViewById(R.id.notesEditText);
+        listSpinner = findViewById(R.id.listSpinner);
+        nameEditText = findViewById(R.id.nameEditText);
+        notesEditText = findViewById(R.id.notesEditText);
         
         // set listeners
         nameEditText.setOnKeyListener(this);

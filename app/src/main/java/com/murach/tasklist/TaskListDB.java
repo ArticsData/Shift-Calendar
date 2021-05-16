@@ -111,8 +111,8 @@ public class TaskListDB {
     
     // database object and database helper object
     private SQLiteDatabase db;
-    private DBHelper dbHelper;
-    private Context context;
+    private final DBHelper dbHelper;
+    private final Context context;
     
     // constructor
     public TaskListDB(Context context) {

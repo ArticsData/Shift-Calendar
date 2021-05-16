@@ -25,7 +25,7 @@
         </provider>
 
         <receiver
-            android:name="com.murach.tasklist.AppWidgetTop3"
+            android:name="com.murach.tasklist.AppWidgetTopThree"
             android:label="@string/appwidget_top3_label" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

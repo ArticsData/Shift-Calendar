@@ -36,9 +36,9 @@ public class TaskLayout extends RelativeLayout implements OnClickListener {
         inflater.inflate(R.layout.listview_task, this, true);
         
         // get references to widgets
-        completedCheckBox = (CheckBox) findViewById(R.id.completedCheckBox);
-        nameTextView = (TextView) findViewById(R.id.nameTextView);
-        notesTextView = (TextView) findViewById(R.id.notesTextView);
+        completedCheckBox = findViewById(R.id.completedCheckBox);
+        nameTextView = findViewById(R.id.nameTextView);
+        notesTextView = findViewById(R.id.notesTextView);
         
         // set listeners
         completedCheckBox.setOnClickListener(this);
@@ -60,12 +60,7 @@ public class TaskLayout extends RelativeLayout implements OnClickListener {
             notesTextView.setText(task.getNotes());
         }
 
-        if (task.getCompletedDateMillis() > 0){
-            completedCheckBox.setChecked(true);
-        }
-        else{
-            completedCheckBox.setChecked(false);
-        }        
+        completedCheckBox.setChecked(task.getCompletedDateMillis() > 0);
     }
 
     @Override
