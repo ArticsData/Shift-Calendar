@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaskList.iml" filepath="$PROJECT_DIR$/.idea/modules/TaskList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TaskList.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TaskList.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shift-Calendar.iml" filepath="$PROJECT_DIR$/.idea/modules/Shift-Calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shift-Calendar.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shift-Calendar.app.iml" />
     </modules>
   </component>
 </project>
