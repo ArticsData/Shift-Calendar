@@ -42,7 +42,6 @@ See this presentation (not a rickroll or meme):
 *    I (William Zhang) am not responsible for any damages to devices if you download the APK from the releases tab. Up to this point, I have not tested the code,
      and cannot give any guarantees about the safety and quality of my code until I learn ~~to stop complaining about the incessant bugs in my code~~ to use JUnit or JBoss
      for testing.
-*    If you want to contribute, email me at [aerialconnection98@gmail.com](aerialconnection98@gmail.com).
 --------------------------
 
 ### Interested in contributing?
