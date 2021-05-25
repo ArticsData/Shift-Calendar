@@ -25,7 +25,7 @@ public class TaskListFragment extends Fragment {
             container, false);
         
         // get references to widgets
-        taskListView = view.findViewById (R.id.taskListView);
+        taskListView = (ListView) view.findViewById (R.id.taskListView);
 
         // get the current tab
         TabHost tabHost = (TabHost) container.getParent().getParent();

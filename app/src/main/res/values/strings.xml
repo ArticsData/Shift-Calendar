@@ -19,5 +19,8 @@
 
     <!-- task list app widget -->
     <string name="sample_task">This is a sample task</string>
-    <string name="appwidget_top3_label">Task List (4 x 1)</string>
+    
+    <!-- task count app widget -->
+    <string name="task_count">0</string>
+    
 </resources>

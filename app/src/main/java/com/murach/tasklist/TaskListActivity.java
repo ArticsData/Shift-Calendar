@@ -17,14 +17,13 @@ public class TaskListActivity extends FragmentActivity {
     TabManager tabManager;
     TaskListDB db;
 
-    //Executes on startup
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task_list);
         
         // get tab manager
-        tabHost = findViewById(android.R.id.tabhost);
+        tabHost = (TabHost) findViewById(android.R.id.tabhost);
         tabHost.setup();        
         tabManager = new TabManager(this, tabHost, R.id.realtabcontent);
         

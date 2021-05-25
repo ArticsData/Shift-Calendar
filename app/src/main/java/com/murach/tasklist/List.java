@@ -5,9 +5,7 @@ public class List {
     private long id;
     private String name;
     
-    public List() {
-
-    }
+    public List() {}
     
     public List(String name) {
         this.name = name;

@@ -8,7 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 
-public class AppWidgetTopThree extends AppWidgetProvider {
+public class AppWidgetTop3 extends AppWidgetProvider {
 
     @Override
     public void onUpdate(Context context, 
@@ -54,7 +54,7 @@ public class AppWidgetTopThree extends AppWidgetProvider {
             AppWidgetManager manager = 
                     AppWidgetManager.getInstance(context);
             ComponentName provider = 
-                    new ComponentName(context, AppWidgetTopThree.class);
+                    new ComponentName(context, AppWidgetTop3.class);
             int[] appWidgetIds = manager.getAppWidgetIds(provider);
             onUpdate(context, manager, appWidgetIds);
         }

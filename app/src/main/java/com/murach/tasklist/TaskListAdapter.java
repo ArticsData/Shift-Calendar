@@ -9,8 +9,8 @@ import android.widget.BaseAdapter;
 
 public class TaskListAdapter extends BaseAdapter {
     
-    private final Context context;
-    private final ArrayList<Task> tasks;
+    private Context context;
+    private ArrayList<Task> tasks;
 
     public TaskListAdapter(Context context, ArrayList<Task> tasks){
         this.context = context;

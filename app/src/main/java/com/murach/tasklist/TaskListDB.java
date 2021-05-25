@@ -111,8 +111,8 @@ public class TaskListDB {
     
     // database object and database helper object
     private SQLiteDatabase db;
-    private final DBHelper dbHelper;
-    private final Context context;
+    private DBHelper dbHelper;
+    private Context context;
     
     // constructor
     public TaskListDB(Context context) {
@@ -302,6 +302,23 @@ public class TaskListDB {
         db.close();
                 
         return taskNames;
+    }
+    
+    
+    public int getTaskCount() {
+        String [] columns = {TASK_ID};
+        String where = TASK_COMPLETED + "= '0'";
+
+        this.openReadableDB();
+        Cursor cursor = db.query(TASK_TABLE, columns, 
+                where, null, null, null, null);     
+        int count = cursor.getCount();
+        
+        if (cursor != null)
+            cursor.close();
+        db.close();
+        
+        return count;
     }
     
     /*
