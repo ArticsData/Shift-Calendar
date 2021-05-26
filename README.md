@@ -27,6 +27,11 @@ To create this project, I didn't just need to learn `Java`. I also had to use:
 See this presentation (not a rickroll or meme):
 [https://docs.google.com/presentation/d/1yLl1NQ-emm7VSoepsUGA4ing5n9zBxHKVGbFu95t3Qg/edit?usp=sharing](https://docs.google.com/presentation/d/1yLl1NQ-emm7VSoepsUGA4ing5n9zBxHKVGbFu95t3Qg/edit?usp=sharing)
 
+### Why are release cycles so slow?
+
+Making quality apps takes time, grit, and a lot of suffering. It isn't easy, and Argentable always tries to deliver the best possible products to all end-users
+in a way that benefits the entire community. Please stand by while we resolve any issues and merge pull requests. 
+
 ### Credits (to all the creators of the code, library functions, and external build tools that helped make this app possible)
 
 - Google CalendarView
